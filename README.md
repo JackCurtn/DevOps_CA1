@@ -1,3 +1,6 @@
 # DevOps_CA1
 
-Testing a commit on main
+This repo contains 3 YAML files;
+- CICD.yml
+- CIDCTest.yml
+- superlinter.yml
