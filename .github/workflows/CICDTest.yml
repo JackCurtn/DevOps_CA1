@@ -1,0 +1,22 @@
+name: CI/CD Pipeline Test
+
+on: 
+  push:
+    branches: [ main ] 
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Code Scanning
+        run: echo "Linting and scanning code"
+      - name: Compile
+        run: echo "Compiling code"
+      - name: Test
+        run: echo "Testing code"
+      - name: Checks Complete
+        run: echo "Checks complete, code built successfully"
