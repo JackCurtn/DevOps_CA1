@@ -1,6 +1,7 @@
 # Function which will output the result of 2 numbers being added together
-def add(x,y):
-    print(x+y)
+def add(x, y):
+    print(x + y)
+
 
 # Variable to hold first int
 i = 5
@@ -8,4 +9,4 @@ i = 5
 j = 10
 
 # Adds i and j
-add(i,j)
+add(i, j)
